@@ -181,6 +181,8 @@ article {
 }
 
 .lastsection {
+    display: flex
+    
 }
 
 .longcards {
@@ -232,4 +234,9 @@ article {
 .sevenlongcards{
     display: flex;
     flex-direction: column;
+}
+
+.rightside {
+
+width: 50%;
 }
