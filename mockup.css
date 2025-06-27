@@ -1,41 +1,56 @@
-
 body {
-    
 }
 
 h1 {
-    font-size: 4em;
-    margin: 1em;
+  font-size: 4em;
+  margin: 1em;
+}
+
+header h3 {
+  font-size: 2.5em;
+  margin: 1em;
 }
 
 h3 {
-    font-size: 2.5em;
-    margin: 1em;
+  font-size: 2.5em;
+}
+
+header h4 {
+  font-size: 1.7em;
+  margin: 1em;
 }
 
 h4 {
-    font-size: 1.7em;
-    margin: 1em;
+  font-size: 1.7em;
+  padding: 10px 0px 10px 0;
+}
+
+h5 {
+  font-size: 1.4em;
+}
+
+h6 {
+  font-size: 1.1;
 }
 
 p {
-    font-size: small;
+  font-size: small;
+  padding: 10px 0px 10px 0;
 }
 
 nav {
-  background-color: #FFC017;
+  background-color: #ffc017;
   display: flex;
-  justify-content: space-between; 
-  align-items: center;           
-  padding: 10px 20px;    
-  border-bottom: 1px solid black;         
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom: 1px solid black;
 }
 
 a {
   text-decoration: none;
   color: black;
 }
-
 
 a.btn {
   background-color: black;
@@ -51,7 +66,7 @@ ul {
   padding: 0;
   margin: 0;
   display: flex;
-  gap: 20px; 
+  gap: 20px;
   align-items: center;
 }
 
@@ -63,40 +78,158 @@ ul li:last-child {
 }
 
 header {
-    background-color: #FFC017;
-    display: flex;
-    justify-content: space-between
+  background-color: #ffc017;
+  display: flex;
+  justify-content: space-between;
 }
 
 .curious {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-grow: 1;
   text-align: left;
   max-width: 600px;
   padding: 20px;
-
 }
 .ms svg {
-    flex-grow: 0.5;
-     width: 200px;
+  flex-grow: 0.5;
+  width: 200px;
 }
 
 .bottone {
-    border-radius: 20px;
-    width: 27%;
-    color: white;
-    background-color: black;
-    margin: 1.5em;
-    padding-top: 8px;
-    padding-bottom: 8px;
+  border-radius: 20px;
+  width: 27%;
+  color: white;
+  background-color: black;
+  margin: 1.5em;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
-
-
 
 header > div:nth-of-type(2) svg {
-    width: 50px;
+  width: 50px;
+}
+
+section {
+  display: flex;
+  border-bottom: 1px solid grey;
+  flex-direction: column;
+  padding-left: 1.5em;
+}
+
+.trendingtitle {
+  display: flex;
+  margin: 1em;
+}
+
+.cardsection {
+  border: 1px solid;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+article {
+  width: 30%;
+
+  display: flex;
+  border: 1px solid red;
+  margin: 1em;
+  padding: 10px;
+  height: 150px;
+  justify-content: space-between;
+}
+
+.number {
+  color: #e8e7e5;
+  font-size: xx-large;
+  flex: 0.5;
+  text-align: center;
+}
+
+. .textcard {
+  justify-content: start;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 9;
+  align-content: space-evenly;
+}
+
+.trendingtitle h5 {
+  align-content: center;
+  padding-left: 10px;
+}
+
+.titlecard {
+  display: flex;
+  justify-content: start;
+  gap: 10px;
+}
+
+.titlecard img:nth-child(1),
+.titlecard img:nth-child(2) {
+  border-radius: 50px;
+}
+
+.titlecard p {
+  align-self: center;
+  padding-left: 10px;
+}
+
+.contentcard p {
+  color: #9a9897;
+}
+
+.lastsection {
+}
+
+.longcards {
+  display: flex;
+  flex-direction: ;
+  width: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+}
+
+.longtitlecard {
+    
+}
+
+.imagelongcard {
+  padding: 20px;
+  flex-grow: 2;
+  width: 25%;
+}
+
+.imagelongcard img {
+    width: 100%;
 }
 
 
+.longcontentcard span:nth-child(1) {
+    background-color: #F2F3F3;
+  color: #81919A;
+  padding: 0px 16px;
+  border-radius: 20px;
+  font-weight: bold;
+  transition: background-color 0.2s;
+}
+
+.longcontentcard {
+ 
+}
+
+
+
+.longcontentcard span:nth-child(3)
+{
+        position: ;
+    left: 0px;
+    bottom: 0px;
+}
+
+.sevenlongcards{
+    display: flex;
+    flex-direction: column;
+}
